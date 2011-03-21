@@ -1,0 +1,36 @@
+<install>
+    <name>ofxOpenCv2</name>
+	<version>0.01</version>
+	<author>marynel vazquez</author>
+	<url></url>
+
+	<add>
+
+		<!-- 	=====================================================================	-->
+		<!--	========================== add per project using this addon =========	-->
+		<!-- 	=====================================================================	-->
+
+		<src>
+			<folder name="addons/ofxOpenCv2/src">						
+				<file>../../../addons/ofxOpenCv2/src/ofxCv2Image.cpp</file>
+				<file>../../../addons/ofxOpenCv2/src/ofxCv2Image.h</file>
+				<file>../../../addons/ofxOpenCv/src/ofxOpenCv2.h</file>
+			</folder>
+		</src>
+
+		<include>
+			<path>../../../addons/ofxOpenCv2/src</path>
+			<path>../../../addons/ofxOpenCv2/libs/opencv2/include</path>
+			<path>../../../addons/ofxOpenCv2/libs/opencv2/include/opencv2</path>
+			<path>../../../addons/ofxOpenCv2/libs/opencv2/include/opencv2/core</path>
+		</include>
+		
+
+		<link>
+			<lib os="mac"   compiler="xcode">../../../addons/ofxOpenCv2/libs/opencv2/lib/osx/libopencv_core.a</lib>
+		</link>
+		
+	</add>
+	
+	
+</install>
