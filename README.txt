@@ -1,0 +1,1 @@
+This is a simple OpenFrameworks wrapper for OpenCV2 (currently, only Mac is supported).
